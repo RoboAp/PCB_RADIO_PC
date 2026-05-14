@@ -1235,7 +1235,6 @@
 		(property "Value" "MountingHole_2.2mm_M2_ISO7380"
 			(at 0 2.7 0)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "3e8b2782-d784-4c7a-9918-af827fff9b48")
 			(effects
 				(font
