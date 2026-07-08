@@ -1,14 +1,14 @@
-# VSSS Communication Base - ESP32 & NRF24L01 🛰️
+# VSSS Communication Base - RASPBERRY PI PICO & NRF24L01 🛰️
 
 Este repositório contém o projeto de hardware (PCB) da base emissora/receptora desenvolvida para a equipe **roboAp (UTFPR - Apucarana)**. O módulo é responsável pelo link de comunicação entre a estação de processamento (PC) e os robôs da categoria **Very Small Size Soccer (VSSS)**.
 
 ## 📋 Visão Geral
 
-A placa atua como um dongle USB de alto desempenho. Ela utiliza o processamento do **ESP32** para gerenciar o tráfego de dados e o rádio **NRF24L01** para a transmissão em tempo real, garantindo baixa latência nos comandos de trajetória.
+A placa atua como um dongle USB de alto desempenho. Ela utiliza o processamento do **RP2350** para gerenciar o tráfego de dados e o rádio **NRF24L01** para a transmissão em tempo real, garantindo baixa latência nos comandos de trajetória.
 
 ## 🛠 Especificações de Hardware
 
-* **Microcontrolador:** ESP32-WROOM-32
+* **Microcontrolador:** PI PICO 2 RP2350
 * **Transceptor:** NRF24L01+ (2.4 GHz)
 * **Alimentação:** Barramento USB (5V)
 * **Interface:** Serial-to-SPI Bridge
